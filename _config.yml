@@ -1,0 +1,47 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Botani/Reed
+email:
+description: _PLACEHOLDER_
+url: # the base hostname & protocol for your site
+keywords: ["blog", "jekyll"]
+authors: ["Winnie the Pooh", "Piglet"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Botani/Reed
+  avatar: winnie.png
+  job: "_PLACEHOLDER_"
+  bio: "_PLACEHOLDER_"
+  email: placeholder@email.com
+  disqus-shortname:
+  github: #username
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  codepen: #username
